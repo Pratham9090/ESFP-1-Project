@@ -4,7 +4,18 @@
 #include <string.h>
 
 int main ()
+{
 
+ printf("======================================================================================================================\n");
+ printf("                                                NAME: Pratham Prajapati\n"                                   );
+ printf("                                                BRANCH:CS\n"                                            );
+ printf("                                                ER-NO.:CS14\n"                                          );
+ printf("                                                ESFP-1 PROJECT\n"                                        );
+ printf("                                                Vehicle Forensic\n"                                           );
+ printf("                                               For year 2022-2023\n"                                           );
+ printf("=======================================================================================================================\n");
+
+ 
 {
 
 char id[50];
@@ -75,7 +86,7 @@ goto pass;
         // Switch statements
         switch(choice){
             case 1:
-                printf("> Today, the development of the automotive industry is associated with the phenomena of electromobility, autonomous vehicles, digitisation and telematics. New vehicles contain a large number of electronic control units which process and preserve digital data on the activity and its occupants, including communication with the external environment. This data can also be used for forensic purposes, as described in this paper. Attention is also paid to current trends, problem areas and safety risks. The paper deals with sources, classification, characteristics and uses of digital information in vehicles for forensic purposes from various perspectives, paper describes main problematic issue of Digital Vehicle Forensic. The present-day development, advancement and operation of vehicles is inseparably linked with the introduction of electronic devices and digitisation. As a result of this trend, vehicles process, t transmit and save a large quantity of operational data and data connected with the activities of the vehicle occupants. This trend has a sharply rising character, especially in connection with the development of electric engines and an effort to create and put into operation entirely autonomous vehicles that do not require the active involvement of a driver in order to reach their established destination. In recent years, Smart Cars have become the trend in the development of today’s automobile industry.\n");
+                printf("> Today, the development of the automotive industry is associated with the phenomena of electromobility, autonomous vehicles, digitisation and telematics. New vehicles contain a large number of electronic control units which process and preserve digital data on the activity and its occupants, including communication with the external environment. This data can also be used for forensic purposes, as described in this paper. Attention is also paid to current trends, problem areas and safety risks. The paper deals with sources, classification, characteristics and uses of digital information in vehicles for forensic purposes from various perspectives, paper describes main problematic issue of Digital Vehicle Forensic. The present-day development, advancement and operation of vehicles is inseparably linked with the introduction of electronic devices and digitisation. As a result of this trend, vehicles process, t transmit and save a large quantity of operational data and data connected with the activities of the vehicle occupants. This trend has a sharply rising character, especially in connection with the development of electric engines and an effort to create and put into operation entirely autonomous vehicles that do not require the active involvement of a driver in order to reach their established destination. In recent years, Smart Cars have become the trend in the development of todayâ€™s automobile industry.\n");
                 break;
             case 2:
                 printf("> Vehicle condition monitoring allows the driver, dispatchers and support personnel to become aware of defects or emerging problems on the vehicle. They can take proactive steps to repair the defect or to substitute the vehicle or the defective piece of equipment. Condition monitoring includes:\n");
@@ -98,7 +109,7 @@ goto pass;
 				break;
 			case 4:
 			    printf("> All vehicles store vast amount of data. Vehicle infotainment and telematics systems store for example recent destinations, favorite locations, call logs, contact lists, pictures, videos, social media feeds, and the navigation history of everywhere the vehicle has been.\n");
-				  printf("> Many systems record where a vehicle’s lights are turned on, which doors are opened and even where the vehicle is when Bluetooth devices connect.\n");
+				  printf("> Many systems record where a vehicleâ€™s lights are turned on, which doors are opened and even where the vehicle is when Bluetooth devices connect.\n");
 				    printf("> Once you have extracted information from a vehicle you will be able to migrate it to tools for XAMN and analyze vehicle and mobile device data together. \n");
 					  
                  case 5:
@@ -112,7 +123,6 @@ goto pass;
     }
 
 return 0;
-
 }
-
+}
 
